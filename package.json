@@ -1,0 +1,17 @@
+{
+  "name": "newstohtml",
+  "version": "0.0.1",
+  "description": "微信公众号图文消息转换为HTML，方便插入到小程序中显示",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "微信公众号",
+    "图文消息",
+    "HTML",
+    "小程序"
+  ],
+  "author": "junchao",
+  "license": "MIT"
+}
