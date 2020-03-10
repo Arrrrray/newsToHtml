@@ -1,0 +1,4 @@
+{
+  "presets": ["ex2015", "latest"],
+  "plugins": []
+}

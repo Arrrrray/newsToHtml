@@ -1,10 +1,11 @@
 {
   "name": "newstohtml",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "微信公众号图文消息转换为HTML，方便插入到小程序中显示",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "webpack",
+    "test": "jest"
   },
   "keywords": [
     "微信公众号",
@@ -13,5 +14,24 @@
     "小程序"
   ],
   "author": "junchao",
-  "license": "MIT"
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arrrrray/newsToHtml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Arrrrray/newsToHtml/issues"
+  },
+  "homepage": "https://github.com/Arrrrray/newsToHtml#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-loader": "^8.0.6",
+    "jest": "^25.1.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
 }
